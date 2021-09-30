@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #header {
+                color:blueviolet;
+                text-align: right;
+                margin: 15px;
+            }
+            #imagesearch:hover {
+                background-color: chartreuse;
+            }
+            #advancedsearch:hover {
+                background-color: burlywood;
+            }
+            #searchform {
+                padding: 320px ;
+                background-color: cornflowerblue;
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <a id="imagesearch" href="imagesearch.html">Пошук зображень Google</a>
+            <br>
+            <a id="advancedsearch" href="advancedsearch.html">Розширений пошук Google</a>
+        </div>
+        <div id="searcharea">
+            <form id="searchform" action="https://google.com/search">
+                <input type="text" name="q">
+                <br>
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
+    </body>
+</html>
